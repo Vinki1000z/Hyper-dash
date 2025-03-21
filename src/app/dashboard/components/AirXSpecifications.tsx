@@ -25,8 +25,9 @@ function AirXSpecifications() {
                     src={BlackCarImg}
                     alt="Air X Vehicle Background"
                     className="object-cover absolute inset-0 size-full"
+                  
                 />
-                <div className="flex relative flex-col mb-0 max-w-full w-[376px] max-md:mb-2.5">
+                <div className="flex relative flex-col mb-0 max-w-full w-[376px] max-md:mb-2.5" data-aos="slide-left">
                     <h2 className="self-start text-2xl">Model Air X Specifications</h2>
                     <div className="flex gap-10 mt-12 text-base max-md:mt-10">
                         <dl className="flex flex-col flex-1 items-start">

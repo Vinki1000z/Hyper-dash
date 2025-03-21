@@ -18,8 +18,8 @@ export const ImageGalleryGrid: React.FC<ImageGalleryGridProps> = ({
   bottomRightImage,
 }) => {
   return (
-    <section className="grid grid-cols-12 gap-8 mt-28 max-md:grid-cols-6 max-sm:grid-cols-2">
-      <div className="col-span-3 max-md:col-span-3 max-sm:col-span-1">
+    <section className="grid grid-cols-12 gap-8 mt-28 max-md:grid-cols-6 max-sm:grid-cols-2" data-aos="slide-up">
+      <div className="col-span-3 max-md:col-span-3 max-sm:col-span-1" >
         <img src={topLeftImage} alt="" className="w-full h-auto" />
       </div>
       <div className="col-span-3 max-md:col-span-3 max-sm:col-span-1">

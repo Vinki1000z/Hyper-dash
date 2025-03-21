@@ -18,6 +18,7 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({
           src={leftImage}
           alt="Sustainability showcase"
           className="w-full h-auto"
+          data-aos="slide-up"
         />
       </div>
       <div className="flex flex-col">
@@ -25,11 +26,12 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({
           src={rightTopImage}
           alt="Sustainability detail"
           className="w-full h-auto mb-[38px]"
+          data-aos="slide-up"
         />
-        <h2 className="mb-5 text-3xl text-white">
+        <h2 className="mb-5 text-3xl text-white" data-aos="slide-up">
           Drive to a sustainable future
         </h2>
-        <p className="text-lg text-white">
+        <p className="text-lg text-white" data-aos="slide-up">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut
         </p>

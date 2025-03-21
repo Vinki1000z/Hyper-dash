@@ -14,7 +14,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
   description,
 }) => {
   return (
-    <article className="flex flex-col gap-5 flex-[0_0_318px] max-md:flex-[0_0_280px] max-sm:flex-[0_0_260px]">
+    <article className="flex flex-col gap-5 flex-[0_0_318px] max-md:flex-[0_0_280px] max-sm:flex-[0_0_260px]" data-aos='zoom-up'>
       <img
         src={imageUrl}
         alt={imageAlt}

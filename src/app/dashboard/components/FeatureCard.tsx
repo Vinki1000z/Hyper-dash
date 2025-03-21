@@ -9,7 +9,7 @@ interface FeatureCardProps {
 
 export const FeatureCard: React.FC<FeatureCardProps> = ({ image, title }) => {
   return (
-    <article className="flex flex-col gap-8 items-center">
+    <article className="flex flex-col gap-8 items-center" data-aos="slide-up">
       <img src={image} alt={title} className="w-full h-[286px] object-cover" />
       <h3 className="text-2xl text-center text-white max-md:text-xl">
         {title}

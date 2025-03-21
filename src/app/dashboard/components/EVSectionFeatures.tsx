@@ -9,7 +9,7 @@ function EVSection22Features() {
             <div className="flex gap-5 max-md:flex-col h-full items-center">
                 {/* Text Section */}
                 <div className="w-[50%] max-md:w-full flex items-center">
-                    <article className="flex flex-col self-stretch my-auto w-full max-md:mt-10">
+                    <article className="flex flex-col self-stretch my-auto w-full max-md:mt-10" data-aos="slide-right">
                         <h1 className="self-start text-5xl text-white max-md:text-4xl">Lexo Z</h1>
                         <h2 className="mt-3 text-3xl text-white">Accelerate into a New Era</h2>
                         <div className="mt-12 text-sm text-white max-md:mt-10 max-md:mr-2.5">
@@ -46,6 +46,7 @@ function EVSection22Features() {
                             height={600}
                             className="object-contain w-full aspect-[0.89] max-md:mt-10 max-md:max-w-full"
                             priority
+                            data-aos="slide-left"
                         />
                     </figure>
                 </div>

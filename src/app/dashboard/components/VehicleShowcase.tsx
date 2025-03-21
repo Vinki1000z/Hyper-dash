@@ -20,10 +20,11 @@ const VehicleShowcase: React.FC = () => {
   return (
     <main className="w-full bg-zinc-900">
       <div className="px-4 py-28 mx-auto max-w-[1182px] max-md:py-16 max-sm:py-10">
-        <section className="grid grid-cols-3 gap-8 max-md:grid-cols-2 max-sm:grid-cols-1">
+        <section className="grid grid-cols-3 gap-8 max-md:grid-cols-2 max-sm:grid-cols-1" >
           <FeatureCard
             image={DesignImg.src}
             title="Impeccable Design"
+            
           />
           <FeatureCard
             image={PerformanceImg.src}
@@ -54,6 +55,7 @@ const VehicleShowcase: React.FC = () => {
         src={CarInDustImg}
         alt="Air X vehicle"
         className="w-full h-full object-cover"
+        data-aos="slide-up"
       />
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(25,25,25,0.56)_2.96%,rgba(25,25,25,0.00)_100%)]" />
       <div className="absolute bottom-32 left-[130px] max-md:left-[60px] max-sm:left-5">

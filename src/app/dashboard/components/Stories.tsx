@@ -55,7 +55,7 @@ export const Stories: React.FC = () => {
 
   return (
     <section className="px-32 py-32 bg-zinc-900 min-h-[810px] max-md:px-10 max-md:py-16 max-sm:px-5 max-sm:py-10">
-      <header className="flex justify-between items-center mb-20 max-sm:flex-col max-sm:gap-5 max-sm:items-start">
+      <header className="flex justify-between items-center mb-20 max-sm:flex-col max-sm:gap-5 max-sm:items-start" data-aos='zoom-up'>
         <h2 className="text-4xl text-white">Our Stories</h2>
         <nav className="flex gap-11">
           <NavigationArrow direction="left" onClick={() => handleScroll("left")} />

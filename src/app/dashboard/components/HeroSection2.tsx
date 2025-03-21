@@ -13,9 +13,10 @@ export const HeroSection2: React.FC = () => {
         src={FeatureImg}
         alt="Hyundai Sonata"
         className="w-full h-full object-cover"
+        data-aos="zoom-up"
       />
     </section>
-        <div className="flex flex-col px-32 py-44 max-md:px-16 max-sm:px-5 max-sm:py-16" style={{position:"absolute",bottom:"-26px"}}>
+        <div className="flex flex-col px-32 py-44 max-md:px-16 max-sm:px-5 max-sm:py-16" style={{position:"absolute",bottom:"-26px"}}  data-aos="zoom-up">
         <section className="max-w-[463px]">
       <h1 className="text-6xl leading-normal text-black max-md:text-5xl max-sm:text-4xl">
         Air X
