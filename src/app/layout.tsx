@@ -1,6 +1,5 @@
 "use client"
 import { useEffect } from "react";
-import type { Metadata } from "next";
 import "./globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
